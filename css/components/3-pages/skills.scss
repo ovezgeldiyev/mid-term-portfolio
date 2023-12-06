@@ -1,0 +1,167 @@
+.skills {
+  padding: 70px 0;
+  &__inner {
+    &-title {
+      text-align: center;
+      position: relative;
+      padding-bottom: 40px;
+      margin-bottom: 60px;
+    }
+    &-top {
+      padding-bottom: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    &-steps {
+      width: 25%;
+      max-width: 230px;
+      margin-left: -100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+    &-image {
+      width: 25%;
+      max-width: 254px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 100%;
+      }
+    }
+    &-list {
+      height: 100%;
+      max-height: 1000px;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      h2 {
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 160px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+  &Item {
+    margin-bottom: 40px;
+    &:last-child {
+      margin: 0;
+    }
+    .logo {
+      margin-bottom: 30px;
+    }
+    ul {
+      li {
+        font-weight: 500;
+        margin-bottom: 24px;
+        &:last-child {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+// 1380px
+@mixin skills-xxxlg-xxxxlg {
+  .skills {
+    &__inner {
+        &-steps {
+            margin: 0;
+        }
+    }
+  }
+}
+// 1250px
+@mixin skills-xlg-xxlg-extra {
+  .skills {
+  }
+}
+// 1180px
+@mixin skills-xlg-xxlg {
+  .skills {
+  }
+}
+// 1024px
+@mixin skills-lg-xlg {
+  .skills {
+  }
+}
+// 930px
+@mixin skills-md-lg {
+  .skills {
+    &__inner {
+        &-list {
+            padding: 0 20px;
+            h2 {
+                margin-bottom: 130px;
+            }
+        }
+    }
+  }
+}
+// 750px
+@mixin skills-sm-md {
+  .skills {
+    &__inner {
+        &-top {
+            padding-bottom: 50px;
+        }
+        &-title {
+            padding-bottom: 25px;
+            margin-bottom: 35px;
+        }
+        &-steps {
+            display: none;
+        }
+        &-list {
+            width: 70%;
+            padding: 0 20px;
+            h2 {
+                margin-bottom: 130px;
+            }
+        }
+        &-image {
+            width: 30%;
+            max-width: 180px;
+        }
+    }
+  }
+}
+// 650px
+@mixin skills-sm-md-extra {
+  .skills {
+  }
+}
+// 540px
+@mixin skills-xsm-sm {
+  .skills {
+    &__inner {
+        &-list {
+            width: 70%;
+            padding: 0 10px;
+            h2 {
+                margin-bottom: 80px;
+                &.big {
+                    font-size: 23px;
+                }
+            }
+        }
+    }
+
+  }
+}
+// 440px
+@mixin skills-xxsm-xsm {
+  .skills {
+  }
+}

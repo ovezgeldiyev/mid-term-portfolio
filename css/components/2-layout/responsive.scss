@@ -1,0 +1,319 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include intro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 40px;
+    &.big {
+      font-size: 50px;
+    }
+  }
+  h3 {
+    font-size: 45px;
+  }
+  h4 {
+    font-size: 42px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  p {
+    &.big {
+      font-size: 35px;
+    }
+  }
+  body {
+    font-size: 24px;
+  }
+  li {
+    &.list{ 
+        padding-left: 30px;
+        &::before {
+            width: 6px;
+            height: 6px;
+            top: 10px;
+        }
+    }
+  }
+  @include header-xxxlg-xxxxlg;
+  @include intro-xxxlg-xxxxlg;
+  @include skills-xxxlg-xxxxlg;
+  @include footer-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 35px;
+    &.big {
+      font-size: 45px;
+    }
+  }
+  h3 {
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 37px;
+  }
+  h5 {
+    font-size: 24px;
+  }
+  p {
+    &.big {
+      font-size: 30px;
+    }
+  }
+  body {
+    font-size: 22px;
+  }
+  li {
+    &.list{ 
+        padding-left: 30px;
+        &::before {
+            width: 6px;
+            height: 6px;
+            top: 8px;
+        }
+    }
+  }
+  .input {
+    input {
+      padding: 20px 45% 20px 50px;
+      font-size: 20px;
+    }
+    button {
+      width: 45%;
+      font-size: 30px;
+      padding: 20px 40px;
+      max-width: 380px;
+    }
+  }
+  @include intro-xlg-xxlg;
+  @include info-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 40px;
+    span {
+      width: 55px;
+    }
+  }
+  h2 {
+    font-size: 30px;
+    &.big {
+      font-size: 40px;
+    }
+  }
+  h3 {
+    font-size: 35px;
+  }
+  h4 {
+    font-size: 33px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    &.big {
+      font-size: 25px;
+    }
+  }
+  body {
+    font-size: 20px;
+  }
+  .main {
+    padding-top: 90px;
+  }
+  .button {
+    font-size: 24px;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include intro-lg-xlg;
+  @include about-lg-xlg;
+  @include info-lg-xlg;
+}
+// 930px
+@include md-lg {
+  @include intro-md-lg;
+  @include skills-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+    &.big {
+      font-size: 35px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    &.big {
+      font-size: 20px;
+    }
+  }
+  body {
+    font-size: 17px;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .input {
+    input {
+      padding: 13px 55% 13px 30px;
+      font-size: 16px;
+    }
+    button {
+      width: 55%;
+      font-size: 25px;
+      padding: 13px 30px;
+      max-width: 270px;
+    }
+  }
+  li {
+    &.list{ 
+        padding-left: 20px;
+        &::before {
+            width: 6px;
+            height: 6px;
+            top: 6px;
+        }
+    }
+  }
+  @include intro-sm-md;
+  @include about-sm-md;
+  @include info-sm-md;
+  @include skills-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 32px;
+    span {
+      width: 45px;
+      margin-left: 12px;
+    }
+  }
+  h2 {
+    font-size: 22px;
+    &.big {
+      font-size: 32px;
+    }
+  }
+  p {
+    &.big {
+      font-size: 17px;
+    }
+  }
+  body {
+    font-size: 15px;
+  }
+  .line {
+    height: 4px;
+  }
+  .main {
+    padding-top: 70px;
+    &__bg {
+      display: none;
+    }
+  }
+  .logo {
+    width: 60%;
+    margin-bottom: 24px;
+    &.big {
+      width: 80%;
+    }
+    &.sm {
+      width: 45%;
+    }
+  }
+  .button {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+  .input {
+    flex-direction: column;
+    align-items: center;
+    input {
+      position: relative;
+      padding: 13px 20px;
+      font-size: 14px;
+    }
+    button {
+      width: 100%;
+      font-size: 17px;
+      padding: 10px 20px;
+      max-width: 230px;
+      margin-top: 15px;
+    }
+  }
+  li {
+    &.list{ 
+        padding-left: 15px;
+        &::before {
+            width: 4px;
+            height: 4px;
+            top:4px;
+        }
+    }
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include intro-xsm-sm;
+  @include about-xsm-sm;
+  @include info-xsm-sm;
+  @include skills-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+    h1 {
+        font-size: 28px;
+  
+      }
+      h2 {
+        font-size: 20px;
+        &.big {
+          font-size: 28px;
+        }
+      }
+  @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include intro-xxxsm-xxsm;
+}
